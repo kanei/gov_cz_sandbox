@@ -1,0 +1,21 @@
+uuid: d51ba87f-8a65-4121-a356-1666565b5271
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.accordion.field_label
+    - paragraphs.paragraphs_type.accordion
+id: paragraph.accordion.default
+targetEntityType: paragraph
+bundle: accordion
+mode: default
+content:
+  field_label:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
