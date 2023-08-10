@@ -1,1 +1,1 @@
-gov_cz playground&#10-----------------&#10&#10A repository for playing around with possibilities of utilising&#10the official Czech design system in a drupal theme.&#10&#10https://code.gov.cz/gov-cz/gov-design-system&#10
+gov_cz sandbox&#10-----------------&#10&#10A repository for playing around with possibilities of utilising&#10the official Czech design system in a drupal theme.&#10&#10https://code.gov.cz/gov-cz/gov-design-system&#10
