@@ -2,14 +2,13 @@
 @import '../../css/styles/mixins/_mq';
 
 //  abstract
-//@import "../../css/styles/abstracts/theme";
+@import "../../css/styles/abstracts/theme";
 @import "../../css/styles/abstracts/variables";
 
 
 //  mixins
 @import "../../css/styles/mixins/pseudo";
 
-// TODO haw to use the variables but not to add them into the file.
 
 @import '../../css/styles/components/gov-accordion';
 

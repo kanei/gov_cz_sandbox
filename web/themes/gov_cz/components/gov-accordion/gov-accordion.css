@@ -1,3 +1,26 @@
+:root {
+  --gov-color-blue: #2362a2;
+  --gov-color-grey-dark: #3b3b3b;
+  --gov-color-white: #ffffff;
+  --gov-color-blue-dark: #254e80;
+  --gov-color-blue-focus: #007bff;
+  --gov-color-blue-light: #3077b7;
+  --gov-color-blue-inactive-1: #91b0d0;
+  --gov-color-blue-inactive-2: #d3dfec;
+  --gov-color-blue-inactive-3: #edf0f2;
+  --gov-color-blue-hover: #e5ebf0;
+  --gov-color-grey-mid: #686868;
+  --gov-color-grey-light: #a8a8a8;
+  --gov-color-grey-inactive: #dddddd;
+  --gov-color-grey-bg: #f5f5f5;
+  --gov-color-yellow: #ecae1a;
+  --gov-color-yellow-dark: #dd9f0c;
+  --gov-color-error: #c52a3a;
+  --gov-color-success: #6fbd2c;
+  --gov-color-grey-dark-rgb: 59, 59, 59;
+  --gov-color-white-rgb: 255, 255, 255;
+}
+
 .gov-accordion {
   position: relative;
   display: block;
@@ -33,7 +56,7 @@
   right: 0;
   top: -1px;
   height: 1px;
-  background-color: gov-colors("grey-inactive");
+  background-color: var(--gov-color-grey-inactive);
 }
 .gov-accordion__header h3 + .gov-icon {
   position: absolute;
@@ -43,7 +66,7 @@
 }
 .gov-accordion__header h3 + .gov-icon:before {
   font-size: 0.75rem;
-  color: gov-colors("blue");
+  color: var(--gov-color-blue);
 }
 .gov-accordion__header > * {
   margin-bottom: 0;
@@ -60,7 +83,7 @@
   margin-right: 0.5rem;
   font-size: 1.5rem;
   vertical-align: middle;
-  color: gov-colors("grey-dark");
+  color: var(--gov-color-grey-dark);
   flex-shrink: 1;
 }
 .gov-accordion__header:focus {
@@ -95,7 +118,7 @@
   left: 0;
   right: 0;
   height: 1px;
-  background-color: gov-colors("grey-inactive");
+  background-color: var(--gov-color-grey-inactive);
 }
 .gov-accordion--bordered:before {
   top: -1px;
@@ -110,7 +133,7 @@
   left: 0;
   right: 0;
   height: 1px;
-  background-color: gov-colors("grey-inactive");
+  background-color: var(--gov-color-grey-inactive);
 }
 .gov-accordion--bordered-bottom:after {
   bottom: -1px;
@@ -147,7 +170,7 @@
 }
 .gov-accordion--as-section {
   margin-bottom: 2.1875rem;
-  background-color: gov-colors("white");
+  background-color: var(--gov-color-white);
   border-radius: 3px;
 }
 .gov-accordion--as-section > .gov-accordion__header, .gov-accordion--as-section > .gov-accordion__content > .gov-accordion__content-inner {
@@ -171,7 +194,7 @@
   right: 0;
   top: 0;
   height: 1px;
-  background-color: gov-colors("grey-inactive");
+  background-color: var(--gov-color-grey-inactive);
 }
 .gov-accordion--no-inner-offset > .gov-accordion__content > .gov-accordion__content-inner {
   padding: 0;
